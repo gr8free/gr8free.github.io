@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN">
+<head>
+<title>Blog</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/ftw.css" />
+<link rel="icon" href="img/Si.ico" type="image/ico" />
+<script type="text/javascript" src="org-info.js">
+/**
+ *
+ * @source: org-info.js
+ *
+ * @licstart  The following is the entire license notice for the
+ *  JavaScript code in org-info.js.
+ *
+ * Copyright (C) 2012-2013 Free Software Foundation, Inc.
+ *
+ *
+ * The JavaScript code in this tag is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU
+ * General Public License (GNU GPL) as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option)
+ * any later version.  The code is distributed WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+ *
+ * As additional permission under GNU GPL version 3 section 7, you
+ * may distribute non-source (e.g., minimized or compacted) forms of
+ * that code without the copy of the GNU GPL normally required by
+ * section 4, provided you include this license notice and a URL
+ * through which recipients can access the Corresponding Source.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in org-info.js.
+ *
+ */
+</script>
+
+<script type="text/javascript">
+
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+
+<!--/*--><![CDATA[/*><!--*/
+org_html_manager.set("TOC_DEPTH", "2");
+org_html_manager.set("LINK_HOME", "index.html");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "0");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "1");
+org_html_manager.set("TOC", "1");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+/*]]>*///-->
+</script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href=""> UP </a>
+ |
+ <a accesskey="H" href="index.html"> HOME </a>
+</div><div id="content">
+<h1 class="title">Blog</h1>
+<div id="table-of-contents">
+<h2>&#30446;&#24405;</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">https 建站</a>
+<ul>
+<li><a href="#sec-1-1">启动AWS EC2的一个实例</a>
+<ul>
+<li><a href="#sec-1-1-1">申请AWS帐号</a></li>
+<li><a href="#sec-1-1-2">启动EC2的实例</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-2">ssh登录服务器, 并管理</a></li>
+<li><a href="#sec-1-3">证书</a></li>
+<li><a href="#sec-1-4">域名</a>
+<ul>
+<li><a href="#sec-1-4-1">获得域名</a></li>
+<li><a href="#sec-1-4-2">域名解析</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-5">准备数据</a>
+<ul>
+<li><a href="#sec-1-5-1">web.setup 文件</a></li>
+<li><a href="#sec-1-5-2">public.el 文件</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-2">机关算尽太聪明, 反算了卿卿性命.</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">https 建站</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2018-10-02 Tue 22:21&gt;</span></span>
+</p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">启动AWS EC2的一个实例</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1">申请AWS帐号</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+需要一个能够美元支付信用卡,为验证信用卡会先收$1, 据说一个月后退回.
+可以免费在限额内使用一年, <b>注意</b> 超出限额仍然要付费.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2">启动EC2的实例</h4>
+<div class="outline-text-4" id="text-1-1-2">
+</div><ul class="org-ul"><li><a id="sec-1-1-2-1" name="sec-1-1-2-1"></a>选可免费的amazon linux机器.<br  /></li>
+<li><a id="sec-1-1-2-2" name="sec-1-1-2-2"></a>选免费套餐类型, 审核并启动之.<br  /></li>
+<li><a id="sec-1-1-2-3" name="sec-1-1-2-3"></a>生成或选择已有密钥对, 下载生成的密钥文件(如I1.pem), 用于登录管理以及上传数据.<br  /></li></ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2">ssh登录服务器, 并管理</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>查询实例的IP地址(如a.b.c.d)
+</li>
+<li>登录: ssh -i I1.pem ubuntu@a.b.c.d
+</li>
+<li><b>在服务器上</b>,  安装nginx web server.
+</li>
+<li><b>在服務器上</b>,  配置nginx.conf文件, web的根目录, 证书位置.
+</li>
+<li>上传file到服務器 : scp -i I1.pem file ubuntu@a.b.c.d:
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3">证书</h3>
+<div class="outline-text-3" id="text-1-3">
+<ol class="org-ol">
+<li>获得证书(免费从阿里云等等, 或购买)
+</li>
+<li>下载证书文件(*.key, *.pem, 记录值), 并上传到AWS EC2服务器,
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4">域名</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1">获得域名</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+购买
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2">域名解析</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<ol class="org-ol">
+<li>@, A, a.b.c.d
+</li>
+<li>www, A, a.b.c.d(加www)
+</li>
+<li>_dnsauth, TXT, 记录值(用于https)
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5">准备数据</h3>
+<div class="outline-text-3" id="text-1-5">
+</div><div id="outline-container-sec-1-5-1" class="outline-4">
+<h4 id="sec-1-5-1">web.setup 文件</h4>
+</div>
+<div id="outline-container-sec-1-5-2" class="outline-4">
+<h4 id="sec-1-5-2">public.el 文件</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<p>
+用org mode, 生成html, css样表文件用法
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">机关算尽太聪明, 反算了卿卿性命.</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="email">Email: <a href="mailto:ftw@woowsi.com">ftw@woowsi.com</a></p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
